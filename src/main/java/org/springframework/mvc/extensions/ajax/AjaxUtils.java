@@ -10,6 +10,7 @@ public class AjaxUtils {
 	}
 
 	public static boolean isAjaxUploadRequest(WebRequest webRequest) {
+		System.out.println("hello");
 		return webRequest.getParameter("ajaxUpload") != null;
 	}
 	
